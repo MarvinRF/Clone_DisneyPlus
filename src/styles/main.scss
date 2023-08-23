@@ -2,6 +2,7 @@
 @use 'hero';
 @use 'shows';
 @use 'plains';
+@use 'watch-anywhere';
 
 @font-face {
   font-family: Avenir ;
@@ -80,4 +81,7 @@ body {
   margin-top: 2vw;
   margin-bottom: 8px;
   border: none;
+}
+.button:hover{
+  background-color: #7426ff;
 }
