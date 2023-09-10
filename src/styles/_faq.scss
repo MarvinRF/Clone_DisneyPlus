@@ -18,6 +18,11 @@
         display: block;
         cursor: pointer;
         position: relative;
+
+        @media (max-width:768px){
+          font-size: 17px;
+      }
+      
         &::after {
           content: '+';
           position: absolute;

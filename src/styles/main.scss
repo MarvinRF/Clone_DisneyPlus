@@ -149,10 +149,16 @@ body {
 
   @media (max-width:768px) {
     display: block;
+    
   }
 
   img {
     max-width: 100%;
+
+    @media (max-width:768px) {
+      padding-bottom: 15px;
+      
+    }
   }
 
   &__text__container {
